@@ -8,8 +8,9 @@ document.getElementById('gerar').addEventListener('click', () => {
 
     linkURL = document.getElementById('linkURL')
     linkURL.innerText = 'Seu link';
-    linkURL.className = 'btn btn-success';
-    linkURL.target = '_blank'
+    linkURL.className = 'btn';
+    linkURL.style.backgroundColor = '#00ff7f';
+    linkURL.target = '_blank';
     linkURL.href = url;
 
 
